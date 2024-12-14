@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #fefaf5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.pronunciation {
+    font-style: italic;
+    color: #777;
+    margin: 5px 0 15px;
+}
+
+.part-of-speech {
+    font-weight: bold;
+    color: #666;
+    margin: 10px 0;
+}
+
+dl, ol {
+    margin: 0 0 15px;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+dd {
+    margin: 0 0 10px 20px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.example {
+    font-style: italic;
+    color: #555;
+    margin: 5px 0;
+}
+
+.synonyms {
+    font-size: 0.9em;
+    color: #888;
+}
+
+b {
+    font-weight: bold;
+}

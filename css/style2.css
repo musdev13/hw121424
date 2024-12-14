@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefaf5;
+}
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #d0e9f5; 
+}
+
+.todo-list li:nth-child(even) {
+    background-color: #b2d8e9;
+}
+
+
+.completed {
+    background-color: #dcdcdc !important;
+    color: #7a7a7a;
+}
+
+.completed .icon::before {
+    content: "☑";
+    margin-right: 10px;
+}
+
+.todo-list li:not(.completed) .icon::before {
+    content: "☐";
+    margin-right: 10px;
+}
+
+.cross {
+    color: red;
+    font-size: 1.2em;
+    font-weight: bold;
+}
